@@ -1,5 +1,4 @@
 import { assets } from "../assets/assets";
-import NewsletterBox from "../components/NewsletterBox";
 import Title from "../components/Title";
 
 const Contact = () => {
@@ -11,7 +10,7 @@ const Contact = () => {
 
       <div className="my-10 flex flex-col justify-center md:flex-row gap-10 mb-28">
         <img
-          className="w-full md:max-w-[480px]"
+          className="w-full md:max-w-[380px]"
           src={assets.contact_img}
           alt=""
         />
