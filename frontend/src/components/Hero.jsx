@@ -33,10 +33,10 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative bg-[#f9f9f9] py-16 px-6 sm:px-10 lg:px-24 overflow-hidden">
+    <section className="bg-[#f9f9f9] py-16 px-6 sm:px-10 lg:px-24 overflow-hidden">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Left Text Section */}
-        <div className="z-10 max-w-xl">
+        <div className="max-w-xl">
           <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
             Discover the <span className="text-yellow-500">Best Deals</span>
           </h2>
@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
 
         {/* Right Image Grid Section */}
-        <div className="hidden sm:flex justify-center relative">
+        <div className="sm:flex justify-center relative">
           <div className="absolute -top-10 -left-10 opacity-20 w-[500px] h-[500px] rounded-full bg-yellow-100 blur-3xl"></div>
           <ImageGrid images={images} />
         </div>
